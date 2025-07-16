@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tool Categories</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      margin: 0;
+      padding: 40px;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .card {
+      background: white;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.2s ease;
+    }
+
+    .card:hover {
+      transform: scale(1.02);
+    }
+
+    .icon {
+      font-size: 40px;
+      margin-bottom: 10px;
+    }
+
+    .card h3 {
+      margin-top: 0;
+    }
+
+    .card p {
+      font-size: 14px;
+      color: #333;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 20px;
+      background: #4caf50;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+    }
+
+    .btn:hover {
+      background: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <h1>Tool Categories</h1>
+  <div class="grid">
+    <div class="card">
+      <div class="icon">📘</div>
+      <h3>Anime Detailes</h3>
+      <p>Completely free and open-source tools. Great for long-term use.</p>
+      <a href="./anime.html" class="btn">View Tools</a>
+    </div>
+    <div class="card">
+      <div class="icon">🎁</div>
+      <h3>Free Tools</h3>
+      <p>Full-featured freeware with no cost and no strings attached.</p>
+      <a href="free-tools.html" class="btn">View Tools</a>
+    </div>
+    <div class="card">
+      <div class="icon">🔓</div>
+      <h3>Freemium Tools</h3>
+      <p>Tools with free plans that may have limitations or paid upgrades.</p>
+      <a href="freemium.html" class="btn">View Tools</a>
+    </div>
+    <div class="card">
+      <div class="icon">⏱️</div>
+      <h3>Free to Try Tools</h3>
+      <p>Short trials of premium software. Limited time or features.</p>
+      <a href="trial.html" class="btn">View Tools</a>
+    </div>
+    <div class="card">
+      <div class="icon">⚙️</div>
+      <h3>Free Micro Tools</h3>
+      <p>Minimalist tools for solving small specific problems quickly.</p>
+      <a href="micro.html" class="btn">View Tools</a>
+    </div>
+    <div class="card">
+      <div class="icon">📚</div>
+      <h3>Free Resources</h3>
+      <p>Courses, templates, media assets, and more useful free stuff.</p>
+      <a href="resources.html" class="btn">View Tools</a>
+    </div>
+  </div>
+</body>
+</html>
